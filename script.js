@@ -27,7 +27,7 @@ function show_img_mangas(){
         let block = document.createElement('div');
         block.classList.add('card');
         block.style.width = '18rem';
-        block.innerHTML = `<img src="/Images/couverture/${name_low}.jpg" class="card-img-top" alt="${name}">`
+        block.innerHTML = `<img src="Images/couverture/${name_low}.jpg" class="card-img-top" alt="${name}">`
       
         block_img.appendChild(block)
  
@@ -46,7 +46,7 @@ function show_tomes_ByName(nameMangas){
         let block = document.createElement('div');
         block.classList.add('card');
         block.style.width = '18rem';
-        block.innerHTML = `<img src="/Images/${nameMangas}/${i}.jpeg" class="card-img-top" alt="${nameMangas}_${i}">`
+        block.innerHTML = `<img src="Images/${nameMangas}/${i}.jpeg" class="card-img-top" alt="${nameMangas}_${i}">`
       
         block_img.appendChild(block)
 
