@@ -22,6 +22,7 @@ function show_img_mangas(){
     for(let i = 0; i< mangas_array.length ; i++){
         let name_low = mangas_array[i].toLowerCase();//le nom en miniscule
         let name = mangas_array[i];
+        console.log(name_low);
 
         let block = document.createElement('div');
         block.classList.add('card');
