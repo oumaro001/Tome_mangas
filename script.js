@@ -3,13 +3,13 @@ let mangas_array =
 ['Bleach',
 'Bluelock',
 'Chainsawman',
-'Death note',
-'Demon slayer',
-'Fire force',
-'Jujutsu kaisen',
+'Death_note',
+'Demon_slayer',
+'Fire_force',
+'Jujutsu_kaisen',
 'Naruto',
-'One piece',
-'One punch man'];
+'One_piece',
+'One_punch_man'];
 
 // le block qui contiendra les images 
 let block_img = document.querySelector('.block_img');
