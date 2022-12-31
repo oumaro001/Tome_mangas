@@ -1,0 +1,30 @@
+
+.block_img{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.card{
+    margin: 5px;
+    animation: animationCard 1.5s forwards;
+}
+
+@keyframes animationCard {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.nav-link{
+
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color:red !important;
+}
